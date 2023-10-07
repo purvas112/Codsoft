@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: "Rajdhani", sans-serif;
+  background-color: #020617;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  height: 17%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-items {
+  display: flex;
+  gap: 2.5em;
+}
+
+.nav-items div {
+  display: flex;
+  gap: 0.5em;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.nav-items a:hover {
+  color: #e2a5ff;
+}
+
+.btns {
+  display: flex;
+  gap: 1.3em;
+}
+
+.btns button {
+  border-radius: 12px;
+  padding: 16px 24px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.btns .btn1 {
+  color: #e2a5ff;
+  background-color: #211d21;
+  border: 1px solid #3e3545;
+  transition: all 0.2s;
+}
+
+.btns .btn1:hover {
+  background-color: #3a323a;
+  border: 1px solid #c154f4;
+}
+
+.btns .btn2 {
+  color: #171417;
+  background-color: #e2a5ff;
+  transition: all 0.2s;
+  border: none;
+}
+
+.btns .btn2:hover {
+  background-color: #ce75f7;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.content {
+  width: 50%;
+}
+.content h1 {
+  color: #e2a5ff;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  font-family: Fira Mono, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.content h2 {
+  color: #f7f6f7;
+  letter-spacing: -1px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-family: Inter, sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.imgs {
+  position: relative;
+  /* margin-top: 2.3rem; */
+}
+
+.heroimg {
+  width: 520px;
+  height: 560px;
+  border-radius: 40px;
+}
+
+.circle {
+  width: 90px;
+  position: absolute;
+  bottom: -1.8rem;
+  right: 2rem;
+}
+
+.pentagon {
+  width: 90px;
+  position: absolute;
+  top: 1.8rem;
+  left: -2.7rem;
+  transform: rotate(18deg);
+}
+
+.diamond {
+  width: 50px;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
